@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(https://kartinki.pics/uploads/posts/2021-07/1625691016_20-kartinkin-com-p-dollari-oboi-krasivie-24.jpg);
+    background-color: #f0f0f0;
+    height: 100dvh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    background-color: rgb(172, 219, 174);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0,5);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#coin{
+    width: 350px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#buyUpgrade{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(176, 249, 168);
+    font-size: 16px;
+}
